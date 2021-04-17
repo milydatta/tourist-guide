@@ -41,11 +41,15 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link ms-5" href="#">
-                Contact
+              <a className="nav-link ms-5" href="/dashboard">
+                Dashboard
               </a>
             </li>
-            <button className="btn btn-success ms-5">Log IN</button>
+            <li className="nav-item">
+              <a className="nav-link ms-5" href="/Login">
+              <button className="btn btn-success ms-5">Log IN</button>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
