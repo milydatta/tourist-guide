@@ -1,8 +1,12 @@
 .social-media .icon{
+        
          height: 40px;
          width: 40px;
          color: hsl(150, 81%, 25%);
          border-radius: 50%;
          border: 1px solid #0c8635;
          padding: 10px;
+     }
+     .footer-area{
+         text-decoration: none;
      }
