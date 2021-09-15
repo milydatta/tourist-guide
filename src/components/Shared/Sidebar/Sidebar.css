@@ -12,4 +12,6 @@
 .sidebar svg{
     margin-right: 5px;
 }
-/* linear-gradient(40deg, #19d322,#b9b86c) */
+.item{
+    text-decoration: none;
+}
