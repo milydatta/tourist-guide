@@ -3,6 +3,7 @@ import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faGooglePlusG } from '@fortawesome/free-brands-svg-icons';
 import FooterCol from '../FooterCol/FooterCol';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
          const ourAddress = [
@@ -32,7 +33,7 @@ const Footer = () => {
                            </FooterCol>
                         </div>
                         <div className="copyRight text-center">
-                            <p>Copyright {(new Date()).getFullYear()} All Rights Reserved</p>
+                            <p>Copyright {(new Date()).getFullYear()} All Rights Reserved    <a href="#home"> <FontAwesomeIcon className="icon text-success" size="15px" icon={faArrowUp} /></a></p>
                         </div>
                     </div>
                 </footer>

@@ -1,8 +1,10 @@
 import React from 'react';
+import './Contact.css';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
     return (
-    <div>
+    <div id="Login" className="mt-5" style={{paddingTop:30}}>
         <div>
              <h1 style={{textAlign:'center'}} className="mt-5">CONTACT <span className="text-success">US</span></h1>
         </div>
@@ -23,7 +25,7 @@ const Contact = () => {
               <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Message"></textarea>
            </div>
            <div className="mb-3">
-              <button className="btn btn-success btn-lg">Log In</button>
+           <Link to="/login"> <button className="btn btn-success  btn-lg"> Log In </button> </Link>
            </div>
         </form>
     </div>

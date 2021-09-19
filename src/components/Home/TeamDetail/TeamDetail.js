@@ -28,7 +28,7 @@ const teamData = [
 
 const TeamDetail = () => {
     return (
-       <section className="teams my-5 py-5">
+       <section className="teams my-5 py-5 mt-5" id="team" style={{paddingTop:150}}>
            <div className="container">
                <div className="section-header">
                   <h1 style={{textAlign:'center'}} className="mt-5">OUR <span className="text-success">TEAM</span> MEMBERS</h1>

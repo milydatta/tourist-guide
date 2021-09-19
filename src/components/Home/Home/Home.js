@@ -8,7 +8,7 @@ import TeamDetail from '../TeamDetail/TeamDetail';
 
 const Home = () => {
     return (
-        <div>
+        <div id="home">
            <Header></Header> 
            <About></About>
            <Service></Service>

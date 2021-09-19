@@ -4,7 +4,8 @@ import './Team.css';
  const Team = (props) => {
      const {img, name, post, quote} = props.team;
     return (
-        <div className="col-md-4 shadow-sm ms-5 team" style={{height:350,width:350}}>
+        
+        <div className="col-md-4 shadow-sm ms-5 team mt-5"style={{height:350,width:350}}>
             <div className="card-title d-flex  align-items-center">
                <img className="mx-3" src={img} alt="" width="100"/>
             <div>
