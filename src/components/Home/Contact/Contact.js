@@ -8,7 +8,7 @@ const Contact = () => {
         <div>
              <h1 style={{textAlign:'center'}} className="mt-5">CONTACT <span className="text-success">US</span></h1>
         </div>
-        <form style={{textAlign:'center',width:'80%',paddingLeft:400}} className="mt-5">
+        <form style={{textAlign:'center',width:'80%'}} className="mt-5 form">
         <div className="mb-3">
               <input type="text" className="form-control " id="exampleFormControlInput1" placeholder="First Name"/>
            </div>

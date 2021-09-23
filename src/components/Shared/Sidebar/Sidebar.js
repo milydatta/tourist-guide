@@ -41,15 +41,3 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
-
-
-  // ,
-  
-  // "hosting": {
-  //   "public": "public",
-  //   "ignore": [
-  //     "firebase.json",
-  //     "**/.*",
-  //     "**/node_modules/**"
-  //   ]
-  // }
